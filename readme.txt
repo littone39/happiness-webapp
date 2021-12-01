@@ -11,11 +11,12 @@ create a scatter plot comparing happiness score to another variable on the page 
 'Plot'. Navigation works and home/about pages provide additional information. 
 All features are working.
 
-NOTES: There are a few small quirks/things we couldn't figure out:
-    - The chart axes don't start at zero which is annoying and we couldn't figure out how
-    to fix it in a reasonable amount of time.
-    - Similarly, clicking the dataset key on the charts makes the data disappear and we weren't able 
-    to figure out how to remove it. 
-    - The name of the 'Plot' page maybe isn't quite right -- we tried lots of different names
-    ('compare', 'correlation', 'trends', etc.) and none of them quite fit. 
-    
+NOTES: To use this app, clone this repo and pull data from data.sql into a postgreSQL database. Next, 
+add a file called config.py with the following format: 
+
+    user: "<username associated with the database>"
+    password = "<password for db>"
+    database = "<name of db>"
+
+Now type "python3 app.py localhost 5000" into the command line to view webapp
+at localhost:5000 on your browser. 
