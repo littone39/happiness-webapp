@@ -1,0 +1,262 @@
+/*
+    happiness.css
+    Emily Litton, Jayti Arora
+
+    Styles for the "world happiness" webapp 
+    for CS 257
+*/
+
+body{
+  width: 100%;
+  padding: 0px;
+  background-color:beige;
+}
+
+a {
+  color: #0B86B5;
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: #D8D8D8;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*CSS for map page*/
+#country-title{
+  width: 30%;
+  float:left;
+}
+
+.summary{
+  width:30%;
+  float:left;
+  font-size: 80%;
+  padding-top: 1%; 
+}
+
+.country-summary-list{
+  list-style-type: none;
+  padding-bottom:none;
+}
+
+.selector-and-chart{
+  display:block;
+}
+
+#map-container {
+  position: relative;
+  float: left;
+  height: 0;
+  width: 68%;
+  padding-bottom: 28%;
+  padding-top:5%;
+  margin-left:2% ; 
+  background:#FCBE2D;
+}
+
+.map-directions{
+  margin-left: 3%;
+}
+
+#happiness_chart{
+  width: 30%;
+  float:right;
+  padding:2%;
+}
+
+/* colors for legend */
+.lightest{
+  background-color: #C3FFF9;
+}
+.mid-color1{
+  background-color:#82BCBC;
+}
+.mid-color2{
+  background-color:#447C81;
+}
+.darkest{
+  background-color:#00424B;
+}
+.beige{
+  color:beige;
+}
+
+#map-legend{
+  width:12%;
+  font-size: 50%;
+  padding:0px;
+  margin:0px;
+  clear:left;
+  background-color:beige;
+}
+
+.legend-container{
+  background-color:#FCBE2D;
+  width:68%;
+  padding-left: 3%;
+  padding-bottom: 1%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+#country-title{
+  padding-left:2%;
+}
+
+.hoverpopup {
+  background: #eeeeee;
+  border: 1px black solid;
+  padding: 3px;
+}
+
+/*CSS for navbar*/
+.navbar-color{
+  background-color:#FCBE2D;
+  color: #30374D;
+}
+
+.navbar-brand:hover{
+  color: #30374D;
+  background-color: #FCBE2D;
+}
+
+.nav-item a{
+  color: #00424B;
+}
+
+.nav-item a:hover{
+  color: #ffffff;
+  background-color: #447C81;
+  border-radius: 10px;
+}
+
+.nav-selected{
+  color: #ffffff;
+  background-color: #82BCBC;
+  border-radius: 10px;
+}
+
+/*CSS for Plot page*/
+#chart-container{
+  display:block;
+  float:left;
+  padding:3%;
+  margin-top:50px;
+  width: 100%;
+  min-height: 95vh;
+  background-color:beige;
+}
+
+canvas{
+  background-color: white;
+}
+
+.selector-and-chart{
+  background-color:white;
+}
+
+.correlation-chart{
+  width: 70%;
+  padding: 3%;
+  background-color: beige;
+}
+
+#chart-background{
+  padding: 0%;
+  background-color: beige;
+}
+
+select{
+  border-radius: 0px;
+}
+
+#graph-button {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #82BCBC;
+  border-radius: 10px;
+  border:none;
+}
+
+#graph-button:hover {
+  background-color: #447C81;
+  color: white;
+}
+
+/*CSS for About page*/
+.about{
+  padding: 5% 10%;
+  margin-top: 50px;
+  width:100%;
+  height:94vh;
+  background-color: beige;
+}
+
+/*CSS for Home page*/
+.home{
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.home-page{
+  background-color: beige;
+  margin-top:50px;
+  height: 95vh;
+}
+
+a.home_button{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 30px;
+  margin: 2%;
+  text-decoration: none;
+  background-color:#82BCBC; 
+  height:8%;
+  width: 30%;
+  border-radius: 10px;
+  font-size: 110%;
+}
+
+a.home_button:hover{
+  background-color: #447C81;
+  color: #ffffff;
+}
+
+.home-button-container{
+  float:center;
+}
+
+.map-body{
+  padding-top: 70px;
+  background-color:beige;
+  min-height: 100vh;
+}
+
+p.intro{
+  font-size: 120%;
+}
+
+p.chart{
+  width:60%;
+}
+
+select {
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #447C81;
+  border-radius: 10px;
+  border:none;
+  color: white;
+}
