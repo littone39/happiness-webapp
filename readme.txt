@@ -2,7 +2,7 @@ AUTHORS: Jayti Arora, Emily Litton
 
 DATA: World Happiness Report 2005-2021. Includes information from Gallup Poll about
 country happiness (life ladder), gdp, social support, and other related quality of life 
-statistics over time.
+statistics over time. https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021?select=world-happiness-report.csv
 
 STATUS: Users can view data for a single country on the 'Map' page by clicking a country 
 on the map or selecting one from the drop down menu. The data displayed is from the most 
